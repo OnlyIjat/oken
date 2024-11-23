@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(71, 73, 73);
+    opacity: 75%;
+    height: 70px;
+    border-bottom: 3px solid rgb(46, 46, 46);
+}
+.left {
+    padding-left: 13px;
+    color: antiquewhite;
+}
+.center ul{
+    display: flex;
+    gap: 20px;
+}
+.center li {
+    list-style-type: none;
+}
+.center a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.center li :hover {
+    color: rgb(22, 22, 22);
+}
+h1 {
+    text-align: center;
+}
+.logo img {
+    height: 43px;
+    padding-right: 13px;
+    border-radius: 100%;
+}
+.background {
+    position: absolute;
+    padding-bottom: 50px;
+    width: 100%;
+    min-height: 117vh;
+    background-image: url('WhatsApp\ Image\ 2024-11-20\ at\ 17.39.04.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+}
+footer {
+    background-color: rgb(18, 17, 17);
+    opacity: 75%;
+    margin-top: 20%;
+    display: block;
+    padding: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+footer i{
+font-size: 10px;
+}
